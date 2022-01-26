@@ -1,0 +1,13 @@
+node {
+    stage('Preparation') {
+       bat ''' call sources\List.bat '''
+    }
+    stage('Build') {
+        bat ''' call sources\List.bat '''
+    }
+    stage('Post build action') {
+        bat ''' call sources\List.bat '''
+        
+    }
+    
+}
